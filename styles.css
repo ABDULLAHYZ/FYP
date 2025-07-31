@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dae2e6;
+}
+
+header {
+    background-color: #054a78;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+}
+
+section {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #ff5733;
+}
+
+footer {
+    background-color: #ff5733;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+section img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: cover;
+}
+
+
+/* Tailored Dialogflow Messenger Styles */
+df-messenger {
+    --df-messenger-bot-message: #e6f2f8;
+    /* light blue background for bot replies */
+    --df-messenger-button-titlebar-color: #054a78;
+    /* navbar navy blue */
+    --df-messenger-chat-background-color: #ffffff;
+    /* white chat background */
+    --df-messenger-font-color: #333333;
+    /* dark gray text */
+    --df-messenger-send-icon: #ff5733;
+    /* bright orange-red send button */
+    --df-messenger-user-message: #ffe3dc;
+    /* soft orange for user messages */
+
+
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+}
+
+#menu {
+    padding: 20px;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.item-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.item-description {
+    flex: 1;
+    padding: 20px;
+}
+
+.item-description h3 {
+    margin-top: 0;
+}
+
+.item-description p {
+    font-size: 16px;
+}
+
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+.floating-btn:hover {
+    background-color: #0056b3;
+}
